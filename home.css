@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Aldrich;
+}
+.logo{
+	background-image: url("./images/logo.png");
+	display: block;
+	height:  300px;
+	background-size: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+ul{
+	/*order: white solid 1px;*/
+	width: 280px;
+	height: 50px;
+	margin: auto;
+
+}
+li a{
+	color: white ;
+	font-weight: bold;
+	list-style-type: none;
+	font-size: 1.8vw;
+	-webkit-transition: bottom 4s ease-in ; 
+	transition: bottom 4s ease-in ; 
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	
+}
+li{
+	width: 120px;
+	margin: 10px;
+	float: left;
+}
+li:hover{
+	bottom: 5px;
+	position: relative;
+	
+}
+
+.splash{
+	height: 40vw;
+	background-image: url("./images/splash.gif");
+	background-size: 80%;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+}
+body{
+	background-color: black;
+}
+p{
+	color: white;
+	text-align: center;
+	font-size: 1.5vw;
+	margin-top: 1.5vw;
+	
+}
+.nightmare{
+	height: 40vw;
+	background-image: url("./images/nightmare.gif");
+	background-size: 80%;
+	background-repeat:no-repeat;
+	background-position:center;
+	
+}
+
+.button p{
+	font-size: 50px;
+	border: white solid 5px;
+	width: 200px;
+	height: 95px;
+	margin: auto;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	padding-top: 5px;
+	margin-bottom: 200px;
+
+}.button :hover{
+	background-color: white;
+	color: black;
+}
